@@ -228,11 +228,6 @@ footer {
   }
 }
 
-/* Add this CSS for hamburger menu */
-.menu-opened .header-right {
-  display: block;
-}
-
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
@@ -242,23 +237,35 @@ footer {
     display: block;
   }
 
-  .menu-opened .header-right {
-    display: block;
+  .top-wrapper .btn {
     width: 100%;
-    background-color: rgba(34,49,52,0.9);
-    position: absolute;
-    top: 65px; /* Adjust based on your header height */
-    left: 0;
-    z-index: 9;
   }
 
-  .menu-opened .header-right a {
-    float: none;
-    display: block;
+  .twitter {
+    margin-top: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+
+  .lesson {
     width: 100%;
-    line-height: 50px; /* Adjust based on your header height */
-    padding: 15px 0;
-    text-align: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .lesson-wrapper {
+    height: 1700px;
+  }
+
+  .message-wrapper .btn {
+    width: 100%;
   }
 }
